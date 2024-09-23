@@ -3,6 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/bezuide3/cpwrite
     - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R demo $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp *.* $DEPLOYPATH
     
