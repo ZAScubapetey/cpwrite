@@ -11134,7 +11134,7 @@ p {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-
+    background-color: transparent;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -11168,8 +11168,9 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
+  background-color: #0e814b;
   color: #fff;
-  background-image: url("../assets/img/cover_4.jpg");
+  /*background-image: url("../assets/img/cover_4.jpg");*/
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
